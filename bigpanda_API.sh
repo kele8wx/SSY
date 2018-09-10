@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TOKEN=57c58eb8af9a423ec22968b8d16f48a7
-KEY=2a570ae74ab8cb7f0b2a0ae0f4e9c8c2
+TOKEN=
+KEY=
 IP_ADD=`ifconfig|grep -A 1 ens33|grep inet|awk '{print $2}'`
 
 
